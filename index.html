@@ -13,7 +13,16 @@
   <body class="bg-nav">
     <header class="header">
       <nav class="nav-bar">
-        <img src="assets/img/logo.png" alt="" />
+        <img class="logo-small" src="assets/img/logo.png" alt="" />
+        <img class="logo-large" src="assets/img/logo-large.png" alt="" />
+        <div>
+          <ul class="nav-list">
+            <li class="list-item">Categoria1</li>
+            <li class="list-item">Categoria2</li>
+            <li class="list-item">Categoria3</li>
+            <li>Categoria4</li>
+          </ul>
+        </div>
         <img
           class="menu-hamburguer menu-button"
           src="assets/img/Vector.png"
@@ -25,6 +34,7 @@
         src="assets/img/mobile-hero-img.png"
         alt=""
       />
+      <img class="hero-large" src="assets/img/hero-lg.png" alt="" />
 
       <section>
         <div class="main-text">
@@ -34,6 +44,7 @@
             faucibus sit scelerisque quis commodo aenean viverra
           </p>
           <img class="scroll" src="assets/img/Scroll.png" alt="" />
+          <img class="scroll-large" src="assets/img/scroll-lg.png" alt="" />
         </div>
       </section>
 
@@ -60,8 +71,8 @@
 
     <section class="cards-img">
       <div class="images-text">
-        <h2>Lorem ipsum dolor sit amet consectetur</h2>
-        <p>
+        <h2 class="cards-title">Lorem ipsum dolor sit amet consectetur</h2>
+        <p class="cards-subtitle">
           Lorem ipsum dolor sit amet consectetur. Semper orci adipiscing
           faucibus sit scelerisque quis commodo
         </p>
@@ -111,17 +122,32 @@
           Lorem ipsum dolor sit amet consectetur. Semper orci adipiscing
           faucibus sit scelerisque quis commodo
         </p>
+        <img
+          class="large-places large-place__1"
+          src="assets/img/largePlace1.png"
+          alt=""
+        />
+      </div>
+
+      <div class="side-places">
+        <div>
+          <img class="large-places" src=assets/img/largePlace2.png alt="">
+        </div>
+
+        <div>
+          <img class="large-places" src=assets/img/largePlace3.png alt="">
+        </div>
       </div>
 
       <div class="pic-cards">
         <div class="places-img">
           <div>
-            <img src="assets/img/pics1.png" alt="" />
+            <img class="small-places" src="assets/img/pics1.png" alt="" />
           </div>
 
-          <div><img src=assets/img/pics2.png alt=""></div>
+          <div><img class="small-places" src=assets/img/pics2.png alt=""></div>
 
-          <div><img src=assets/img/pics3.png alt=""></div>
+          <div><img class="small-places" src=assets/img/pics3.png alt=""></div>
 
           <div class="info-box">
             <img src="assets/img/Info-Box.png" alt="" />
@@ -130,12 +156,13 @@
       </div>
     </section>
 
+    <div class="infobox-large">
+      <img src="assets/img/Info-Box-large.png" alt="" />
+    </div>
+
     <section class="buttons-section">
       <div class="buttons-section__paragraph">
-        <p>
-          Lorem ipsum dolor sit <br />
-          amet consectetur
-        </p>
+        <p>Lorem ipsum dolor sit amet consectetur</p>
       </div>
       <div class="button-container">
         <button class="button-item">Perfumaria</button>
@@ -205,16 +232,47 @@
             Lorem ipsum dolor sit amet consectetur. Semper orci adipiscing
             faucibus sit scelerisque
           </p>
-          <p class="footer-paragarph secondery-p">*Lorem ipsum dolor sit amet consectetur</p>
+          <p class="footer-paragarph secondery-p">
+            *Lorem ipsum dolor sit amet consectetur
+          </p>
 
-          <input class="footer-input" type="text" placeholder="Categoria*" name="" id="">
-          <input class="footer-input" type="text" placeholder="Categoria" name="" id="">
-          <input class="footer-input" type="text" placeholder="Categoria*" name="" id="">
-          <input class="footer-input" type="text" placeholder="Categoria" name="" id="">
+          <div>
+            <input
+              class="footer-input"
+              type="text"
+              placeholder="Categoria*"
+              name=""
+              id=""
+            />
+            <input
+              class="footer-input"
+              type="text"
+              placeholder="Categoria"
+              name=""
+              id=""
+            />
+          </div>
+
+          <div>
+            <input
+              class="footer-input"
+              type="text"
+              placeholder="Categoria*"
+              name=""
+              id=""
+            />
+            <input
+              class="footer-input"
+              type="text"
+              placeholder="Categoria"
+              name=""
+              id=""
+            />
+          </div>
 
           <h4 class="secondery-title">Vefificação de segurança</h4>
-
           <div class="footer-security">
+            <h4 class="secondery-title-large">Vefificação de segurança</h4>
             <div class="calc">
               <span>427</span>
               <span class="calc-span">+</span>
@@ -224,30 +282,42 @@
               <span class="equal-span">=</span>
             </div>
             <div>
-              <input class="result" type="text" placeholder="Resultado*">
+              <input
+                class="result"
+                id="userResult"
+                type="text"
+                placeholder="Resultado*"
+              />
             </div>
 
-            
+            <div id="feedback" class="feedback-message"></div>
           </div>
 
+          <div id="feedback-mobile" class="feedback-message__mobile"></div>
+
           <div class="footer-button__container">
-            <button class="footer-button">Lorem ipsum</button>
+            <button
+              class="footer-button"
+              type="button"
+              onclick="validateResult()"
+            >
+              Lorem ipsum
+            </button>
           </div>
         </div>
       </div>
-
     </footer>
 
     <section class="socials">
       <div>
-        <hr>
+        <hr />
       </div>
 
       <div class="social-icons">
-        <img src="assets/img/instagram.png" alt="">
-        <img src="assets/img/wpp.png" alt="">
-        <img src="assets/img/twitter.png" alt="">
-        <img src="assets/img/facebook.png" alt="">
+        <img src="assets/img/instagram.png" alt="" />
+        <img src="assets/img/wpp.png" alt="" />
+        <img src="assets/img/twitter.png" alt="" />
+        <img src="assets/img/facebook.png" alt="" />
       </div>
 
       <p class="socials-paragraph">Lorem ipsum dolor sit amet</p>
