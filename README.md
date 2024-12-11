@@ -1,4 +1,4 @@
-Desafio Monks - Front-End Developer
+Desafio Monks - Estágio em Web Development
 Este projeto foi desenvolvido como parte de um desafio para a vaga de Front-End Developer na Monks.
 
 Descrição -
