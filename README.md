@@ -1,5 +1,5 @@
 Desafio Monks - Estágio em Web Development.
-Este projeto foi desenvolvido como parte de um desafio para a vaga de Front-End Developer na Monks.
+Este projeto foi desenvolvido como parte de um desafio para a vaga de Web Development na Monks.
 
 Descrição -
 O desafio consiste na construção de uma página responsiva com diversas funcionalidades, como um formulário de segurança com validação de soma simples, exibição de categorias e cards de produtos. O layout deve ser responsivo, garantindo uma boa experiência tanto em dispositivos móveis quanto em desktop.
