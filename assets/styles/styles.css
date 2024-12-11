@@ -17,6 +17,8 @@
   font-family: HelveticaNeue, sans-serif;
 }
 
+/* ////////////////////////////// Header //////////////////////////////*/
+
 .header {
   height: 364px;
   background-color: #2d2d2d;
@@ -144,6 +146,8 @@
   background-color: rgba(45, 45, 45, 0.6);
 }
 
+/* ////////////////////////////// Header //////////////////////////////*/
+
 .cards-img {
   background-color: #e9e8e4;
   height: 100%;
@@ -194,22 +198,22 @@
   gap: 1rem;
 }
 
-.places-cards {
+.city-cards {
   background-color: #e9e8e4;
   height: 100%;
   padding-top: 3rem;
 }
 
-.large-places {
+.large-city {
   display: none;
 }
 
-.places-h3,
-.places-paragraph {
+.city-h3,
+.city-paragraph {
   margin-left: 24px;
 }
 
-.places-paragraph {
+.city-paragraph {
   margin-top: 5px;
   font-weight: 300;
   margin-bottom: 6px;
@@ -549,11 +553,11 @@ hr {
     width: 50px;
   }
 
-  .places-h3 {
+  .city-h3 {
     font-size: 24px;
   }
 
-  .places-paragraph {
+  .city-paragraph {
     font-size: 16px;
   }
 }
@@ -656,13 +660,13 @@ hr {
     font-size: 20px;
   }
 
-  .places-h3 {
+  .city-h3 {
     font-size: 40px;
     margin-left: 12%;
     margin-top: 3rem;
   }
 
-  .places-paragraph {
+  .city-paragraph {
     font-size: 24px;
     margin-left: 12%;
     margin-right: 10%;
@@ -674,7 +678,7 @@ hr {
     display: none;
   }
 
-  .large-places {
+  .large-city {
     display: block;
   }
 
@@ -682,15 +686,15 @@ hr {
     display: none;
   }
 
-  .places-cards {
+  .city-cards {
     display: flex;
   }
 
-  .large-place__1 {
+  .large-city__1 {
     margin-left: 12%;
   }
 
-  .side-places {
+  .side-city {
     margin-top: 3rem;
   }
 
@@ -776,6 +780,28 @@ hr {
 
   .feedback-message__mobile {
     display: none;
+  }
+}
+
+@media screen and (max-width: 1700px) and (min-width: 1280px){
+  .section-card {
+    display: grid;
+    margin-left: 18%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .side-city {
+    margin-right: 2%;
+  }
+}
+
+@media screen and (max-width: 1400px) and (min-width: 1280px) {
+  .large-city__2 {
+    margin-top: 12.2rem;
+  }
+  .large-city__2,
+  .large-city__3 {
+    width: 90%;
   }
 }
 
