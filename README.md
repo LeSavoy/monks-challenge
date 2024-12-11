@@ -1,10 +1,10 @@
 Desafio Monks - Front-End Developer
 Este projeto foi desenvolvido como parte de um desafio para a vaga de Front-End Developer na Monks.
 
-Descrição
+Descrição -
 O desafio consiste na construção de uma página responsiva com diversas funcionalidades, como um formulário de segurança com validação de soma simples, exibição de categorias e cards de produtos. O layout deve ser responsivo, garantindo uma boa experiência tanto em dispositivos móveis quanto em desktop.
 
-Funcionalidades
+Funcionalidades -
 Layout totalmente responsivo.
 Navegação por categorias.
 Cards de produtos com imagem, título e descrição.
