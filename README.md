@@ -18,16 +18,16 @@ Flexbox e Grid para layout responsivo
 Link para Visualização
 Você pode visualizar o projeto ao vivo através do seguinte link de deploy.
 
-Link para Visualização
+Link para Visualização -
 Você pode visualizar o projeto ao vivo através do seguinte https://monks-challenge.netlify.app/ de deploy.
 
-Como Rodar o Projeto Localmente
+Como Rodar o Projeto Localmente -
 Faça o clone deste repositório:
 bash
-Copiar código
+Copiar código -
 git clone https://github.com/seu-usuario/monks-challenge.git
 Navegue até o diretório do projeto:
 bash
-Copiar código
+Copiar código -
 cd monks-challenge
 Abra o arquivo index.html em seu navegador.
